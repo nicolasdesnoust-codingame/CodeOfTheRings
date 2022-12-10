@@ -1,14 +1,15 @@
-package application;
+package io.github.nicolasdesnoust.application;
 
-import domain.Actions;
-import domain.Phrase;
-import domain.Solver;
+
+import io.github.nicolasdesnoust.domain.Actions;
+import io.github.nicolasdesnoust.domain.Phrase;
+import io.github.nicolasdesnoust.domain.Solver;
 
 import java.util.Scanner;
 
 public class EntryPoint {
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         Phrase magicPhrase = new Phrase(in.nextLine());
 

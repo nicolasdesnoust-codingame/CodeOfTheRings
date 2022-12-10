@@ -36,3 +36,14 @@ build/
 
 ### Mac OS ###
 .DS_Store
+.idea/
+
+outputs/
+
+*.template
+
+chelper.properties
+
+src/main/java/io/github/nicolasdesnoust/application/Task.java
+
+src/main/java/io/github/nicolasdesnoust/application/Task.json
